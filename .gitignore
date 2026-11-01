@@ -1,0 +1,23 @@
+# builds and the release package (the zip goes to GitHub Releases only)
+build*/
+dist/
+*.dll
+*.exe
+*.pdb
+*.lib
+*.obj
+__pycache__/
+tools/out/
+# test evidence, captures and game-derived analysis files (never published)
+evidence/
+re/
+# NVIDIA NGX SDK (fetched separately, see README "Building from source")
+third_party/ngx/
+# internal development notes
+DS3VR2_PLAN.md
+HANDOFF_*.md
+SKVR2_PORT_NOTE_*.md
+FIX_CHANGES.md
+# editor / scratch leftovers
+*.bak*
+*.tmp
